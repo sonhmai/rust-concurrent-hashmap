@@ -1,0 +1,17 @@
+[package]
+name = "flurry"
+version = "0.0.1"
+edition = "2021"
+
+readme = "README.md"
+description = "Rust port of Java's ConcurrentHashMap"
+repository = "https://github.com/sonhmai/rust-concurrent-hashmap.git"
+
+keywords = ["hashmap","concurrent","map"]
+categories = ["concurrency", "data-structures"]
+
+[dependencies]
+crossbeam = "0.8"
+parking_lot = "0.12"
+num_cpus = "1.16"
+
